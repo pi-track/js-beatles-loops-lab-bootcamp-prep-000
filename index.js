@@ -6,8 +6,10 @@ function theBeatlesPlay(musicians, instruments) {
   return array
 }
 
+
 function johnLennonFacts(facts) {
-  for (let i = 0; i<facts.length; i++){
+  console.log(facts.length())
+  for (let i = 0; i < 5; i++){
     facts.splice(i,0,facts[i] + "!!!")
     console.log(i)
   }
